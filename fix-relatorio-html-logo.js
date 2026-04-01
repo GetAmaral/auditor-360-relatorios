@@ -192,7 +192,7 @@ function gerarSecaoCategoria(cat, tipo) {
 // ========================================
 // MONTAR HTML
 // ========================================
-const logoUrl = 'https://raw.githubusercontent.com/luizporto-ai/imagem-publica/main/Group%2018.png';
+const logoUrl = 'https://totalassistente.com.br/imagem-logo.png';
 
 const secoesSaidas = categoriasOrdenadas.map(c => gerarSecaoCategoria(c, 'saida')).join('');
 const secoesEntradas = entradasOrdenadas.map(c => gerarSecaoCategoria(c, 'entrada')).join('');
